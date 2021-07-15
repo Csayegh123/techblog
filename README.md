@@ -25,8 +25,8 @@ Once the app is installed and run, the user can interact with the app via the we
 
 <a name='questions'></a>
  ## Questions 
-GitHub Profile: https://github.com/sean-mcelwain.  
-Contact Me: sean.mcelwain.KUBootcamp@gmail.com.  
+GitHub Profile: https://github.com/csayegh123 
+Contact: sayegh.topher@gmail.com 
 
 For any question regarding this project, my preferred method of communication is via email. 
 
