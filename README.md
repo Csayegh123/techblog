@@ -7,8 +7,7 @@ This project is a Tech Blog
  1. [ Description. ](#description)  
  2. [ Installation. ](#installation)  
  3. [ Usage tips. ](#usage)   
- 4. [ Questions. ](#questions)  
- 5. [ Screenshot. ](#screenshot) 
+ 4. [ Screenshot. ](#screenshot) 
 
 ## Heroku Link
 URL: (TO BE ADDED WHEN PROJECT DEPLOYED)
@@ -23,12 +22,7 @@ Alternatively, this app can be used via the deployment on Heroku without install
  ## Usage 
 Once the app is installed and run, the user can interact with the app via the web browser.  Or the app is avaiaable via the Heroku deployment. 
 
-<a name='questions'></a>
- ## Questions 
-GitHub Profile: https://github.com/csayegh123 
-Contact: sayegh.topher@gmail.com 
 
-For any question regarding this project, my preferred method of communication is via email. 
 
 <a name='screenshot'></a>
  ## Screenshot 
