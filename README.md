@@ -24,6 +24,3 @@ Once the app is installed and run, the user can interact with the app via the we
 
 
 
-<a name='screenshot'></a>
- ## Screenshot 
-![Screenshot](https://)
