@@ -1,24 +1,39 @@
 {
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "connect-session-sequelize": "^7.1.1",
-    "dotenv": "^10.0.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^5.3.3",
-    "express-session": "^1.17.2",
-    "mysql": "^2.18.1",
-    "mysql2": "^2.3.0",
-    "node": "^16.6.1",
-    "package": "^1.0.1",
-    "path": "^0.12.7",
-    "seed": "^0.4.4",
-    "sequelize": "^6.6.5",
-    "serve-favicon": "^2.5.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js",
-    "seed": "node seeds/seed.js",
-    "watch": "nodemon serber.js"
-  }
+    "name": "the-tech-blog",
+    "version": "1.0.0",
+    "description": "tech-blog",
+    "main": "server.js",
+    "scripts": {
+        "test": "jest",
+        "start": "node server.js",
+        "watch": "nodemon server.js",
+        "seed": "node seeds/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:csayegh123/techblog.git"
+    },
+    "author": "Jake Kelly",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/csayegh123/techblog"
+    },
+    "homepage": "https://github.com/csayegh123",
+    "dependencies": {
+        "bcrypt": "^5.0.0",
+        "connect-session-sequelize": "^6.1.1",
+        "dotenv": "^8.6.0",
+        "eventlistener": "^0.0.1",
+        "express": "^4.17.1",
+        "express-handlebars": "^4.0.6",
+        "express-session": "^1.17.2",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.1.0",
+        "node": "^16.6.1",
+        "sequelize": "^5.22.4"
+    },
+    "devDependencies": {
+        "jest": "^26.4.2",
+        "nodemon": "^2.0.4"
+    }
 }

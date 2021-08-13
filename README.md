@@ -1,26 +1,68 @@
-# Tech_Blog
-<a name='description'></a>
- ## Description 
-This project is a Tech Blog
+# Tech Blog
 
-## Table of Contents  
- 1. [ Description. ](#description)  
- 2. [ Installation. ](#installation)  
- 3. [ Usage tips. ](#usage)   
- 4. [ Screenshot. ](#screenshot) 
+HOW TO USE:
 
-## Heroku Link
-URL: (TO BE ADDED WHEN PROJECT DEPLOYED)
+Click Dashboard
+Sign-up with your own user name and password (password must be over 6 characters long)
+Click Grey Bar and "=New Post" will appear, click it.
+Create "Title" and "Content", then lcik "create"
+## Description 
 
- <a name='installation'></a>
- ## Installation 
-This project is dependent on Node.js and the express, sequelize, and mysql2 packages.  In order to install this app, Node and MySQL must be installed and accessible via the command line application on the local computer.  Then, prior to execution of "server.js" contained in the directory of the utility, the should run: (1) the command "npm install" in the local directory containing the utiltiy to install the dependencies, (2) the code in db/schema.sql in the MySQL terminal to create the database, (3) the command "npm run seed" to seed the database with data for manipulation, and (4) "npm start" to execute the server.js file in the local directory. 
+This is a project which was developed for the University of Arizona Coding Bootcamp course. The application contained within is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. The app follows the MVC paradigm in its architectural structure, using Handlebars.js as the templating language, Sequelize as the ORM, and the express-session npm package for authentication.
 
-Alternatively, this app can be used via the deployment on Heroku without installation described above. 
+## Table of Contents 
 
- <a name='usage'></a>
- ## Usage 
-Once the app is installed and run, the user can interact with the app via the web browser.  Or the app is avaiaable via the Heroku deployment. 
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Documentation](#documentation)
+
+## Usage 
+
+Clone the repo, navigate to the root folder, run the following commands from the CLI:     
+
+Run Test;    
+`npm run test`     
+
+Seed DB;   
+`npm run seed`     
+
+Start Server;     
+`npm start server`     
+
+## Credits
+
+
+
+## License
+
+MIT License
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Documentation
+
+  
+
+
+
+
 
 
 

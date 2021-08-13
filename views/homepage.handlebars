@@ -1,36 +1,9 @@
-<div class="blog-page">
-<div>
-    <nav>
-      <ul>
-        <li class="post active">
-          <a href="/" id="yourPostBtn">Your Posts</a>
-        </li>
+<article class="post">
 
-        <li class="post">
-          <a href="/addPost" id="newPostBtn">New Post</a>
-        </li>
-      </ul>
-    </nav>
-</div>
-    
-{{#if posts.length}}
-  <div class=" post-list">
-  <div id="yourpost">
-    {{#each posts as |post|}}
-
-    <div class="postItem">
-        <div><h4><a href="/post/{{post.id}}">{{post.name}}</a></h4></div>
-        <div><a href="/post/{{post.id}}" class="viewBtn">View</a>
-        <button data-id="{{post.id}}">DELETE</button>        
-        </div>
-    </div>
-
-
+    {{#each posts as |post| }}
+        {{> post-info post}}
     {{/each}}
-  </div>
-  </div>
-  {{/if}}
-</div>
-  
 
-<script src="./js/homepage.js"></script>
+</article>
+
+
